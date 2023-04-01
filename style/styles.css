@@ -8549,9 +8549,79 @@ textarea.form-control {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
-  margin-top: -60px;
+  margin-bottom: 30px;
+  margin-top: -170px;
   border-radius: 10px;
   font-size: 19px;
   font-weight: 600;
+}
+
+
+
+#Kafil .img-col {
+    padding: 15px;
+    border: 20px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+}
+
+#Kafil .img-col .img {
+    padding: 10px;
+    border: 10px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+
+}
+
+#Kafil .img-col,
+#Kafil .content-col {
+    position: relative;
+    top: 45%;
+    -moz-transform: translateY(-60%);
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+}
+#Kafil .img-col .box7 {
+    box-shadow: none;
+    border-radius: 6px;
+    height: 320px;
+
+}
+#Kafil .content-col h3 {
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767.98px) {
+    #Kafil .content-col {
+        text-align: center;
+    }
+    
+    #Kafil .content-col h3 {
+        margin-top: 15px;
+    }
+}
+
+#Kafil .content-col p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#Kafil .content-col a {
+    display: inline-block;
+    background-color: #7DC576;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+#Kafil .content-col a:hover {
+    background-color: #222222;
+    color: #7DC576;
+}
+
+#Kafil .content-col a:focus {
+    color: #fff;
 }
